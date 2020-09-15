@@ -1,0 +1,6 @@
+module Action {
+  umbrella header "Action-library-umbrella.h"
+
+  export *
+  module * { export * }
+}

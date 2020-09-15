@@ -1,0 +1,30 @@
+
+platform :ios, '9.0'
+
+workspace 'MVVM+Coordinator+RxSwift.xcworkspace'
+
+target 'MVVM+Coordinator+RxSwift' do
+
+  use_frameworks!
+  xcodeproj 'MVVM+Coordinator+RxSwift.xcodeproj'
+  pod 'RxSwift', '~> 5'
+  pod 'RxCocoa', '~> 5'
+  pod 'Action'
+  pod 'ReSwift'
+  pod 'Swinject'
+  
+  
+end
+
+target 'ReSwift+Coordinator' do
+  xcodeproj 'ReSwift+Coordinator/ReSwift+Coordinator.xcodeproj'
+  pod 'RxSwift', '~> 5'
+  pod 'RxCocoa', '~> 5'
+  pod 'Action'
+  pod 'ReSwift'
+  pod 'Alamofire'
+  pod 'Swinject'
+
+  
+end
+

@@ -1,0 +1,6 @@
+module Pods_ReSwift_Coordinator {
+  umbrella header "Pods-ReSwift+Coordinator-umbrella.h"
+
+  export *
+  module * { export * }
+}
